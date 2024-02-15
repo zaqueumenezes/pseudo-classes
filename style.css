@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* li:last-child {
+    color: red;
+}
+
+span:first-of-type {
+    color: red;
+} */
+
+li:nth-child(2) {
+    color: red;
+}
+.container :nth-last-child(3){
+    color: red;
+}
+
